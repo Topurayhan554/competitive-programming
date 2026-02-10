@@ -1,0 +1,1 @@
+{"name":"Local: The_Coding_Streak","url":"c:\\Competitive-Programming\\Week-3\\Day-3\\The_Coding_Streak.cpp","tests":[{"id":1770735730473,"input":"4\n1\n1\n2\n5 0\n4\n0 5 2 0\n2\n0 0","output":"1\n1\n2\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-3\\Day-3\\The_Coding_Streak.cpp","group":"local","local":true}
