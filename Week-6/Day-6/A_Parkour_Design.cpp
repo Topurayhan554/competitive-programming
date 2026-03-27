@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std; 
+
+void solve() {
+    long long x, y;
+    cin >> x >> y;
+
+    long long K = x - 2 * y;
+
+    if (K % 3 != 0) {
+        cout << "NO" << endl;
+        return;
+    }
+
+    long long min_c = max(0LL, -y);
+    
+    if (K >= 6 * min_c) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+    return 0;
+}
