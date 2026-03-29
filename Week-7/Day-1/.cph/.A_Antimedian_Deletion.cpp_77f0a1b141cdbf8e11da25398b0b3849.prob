@@ -1,0 +1,1 @@
+{"name":"Local: A_Antimedian_Deletion","url":"c:\\Competitive-Programming\\Week-7\\Day-1\\A_Antimedian_Deletion.cpp","tests":[{"id":1774759393941,"input":"2\n1\n1\n3\n2 1 3\n","output":"1\n2 2 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-7\\Day-1\\A_Antimedian_Deletion.cpp","group":"local","local":true}
