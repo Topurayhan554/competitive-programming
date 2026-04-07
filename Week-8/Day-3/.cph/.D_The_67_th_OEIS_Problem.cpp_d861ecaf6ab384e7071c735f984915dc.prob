@@ -1,0 +1,1 @@
+{"name":"Local: D_The_67_th_OEIS_Problem","url":"c:\\Competitive-Programming\\Week-8\\Day-3\\D_The_67_th_OEIS_Problem.cpp","tests":[{"id":1775532106931,"input":"2\n3\n5\n","output":"1 6 2\n134 67 69 207 414\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-8\\Day-3\\D_The_67_th_OEIS_Problem.cpp","group":"local","local":true}
