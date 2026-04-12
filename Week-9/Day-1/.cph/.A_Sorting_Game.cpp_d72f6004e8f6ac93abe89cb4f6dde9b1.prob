@@ -1,0 +1,1 @@
+{"name":"Local: A_Sorting_Game","url":"c:\\Competitive-Programming\\Week-9\\Day-1\\A_Sorting_Game.cpp","tests":[{"id":1775963520679,"input":"3\n3\n000\n2\n10\n3\n101\n","output":"Bob\nAlice\n2\n1 2 \nAlice\n2\n1 2 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-9\\Day-1\\A_Sorting_Game.cpp","group":"local","local":true}
