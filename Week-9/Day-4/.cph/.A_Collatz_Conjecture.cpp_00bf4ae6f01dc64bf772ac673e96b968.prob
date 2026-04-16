@@ -1,0 +1,1 @@
+{"name":"Local: A_Collatz_Conjecture","url":"c:\\Competitive-Programming\\Week-9\\Day-4\\A_Collatz_Conjecture.cpp","tests":[{"id":1776365214642,"input":"3\n1 4\n1 5\n5 4\n","output":"1\n10\n21\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-9\\Day-4\\A_Collatz_Conjecture.cpp","group":"local","local":true}

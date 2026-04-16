@@ -1,0 +1,1 @@
+{"name":"Local: A_Blocked","url":"c:\\Competitive-Programming\\Week-9\\Day-3\\A_Blocked.cpp","tests":[{"id":1776364421252,"input":"4\n3\n1 5 9\n4\n1 3 3 2\n3\n1 2 3\n1\n1\n","output":"5 9 1\n-1\n3 1 2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-9\\Day-3\\A_Blocked.cpp","group":"local","local":true}
