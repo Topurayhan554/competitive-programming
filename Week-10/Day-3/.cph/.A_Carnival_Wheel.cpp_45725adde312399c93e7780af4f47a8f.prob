@@ -1,0 +1,1 @@
+{"name":"Local: A_Carnival_Wheel","url":"c:\\Competitive-Programming\\Week-10\\Day-3\\A_Carnival_Wheel.cpp","tests":[{"id":1776747653132,"input":"4\n5 3 2\n2 0 6\n8 2 4\n100 0 1\n","output":"4\n0\n6\n99\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-10\\Day-3\\A_Carnival_Wheel.cpp","group":"local","local":true}
