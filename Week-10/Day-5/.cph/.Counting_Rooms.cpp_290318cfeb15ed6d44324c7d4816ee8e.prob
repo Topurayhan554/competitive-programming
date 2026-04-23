@@ -1,0 +1,1 @@
+{"name":"Local: Counting_Rooms","url":"c:\\Competitive-Programming\\Week-10\\Day-5\\Counting_Rooms.cpp","tests":[{"id":1776923472474,"input":"5 8\n########\n#..#...#\n####.#.#\n#..#...#\n########","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-10\\Day-5\\Counting_Rooms.cpp","group":"local","local":true}
