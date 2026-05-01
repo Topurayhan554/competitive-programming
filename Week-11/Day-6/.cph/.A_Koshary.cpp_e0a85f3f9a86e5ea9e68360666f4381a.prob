@@ -1,0 +1,1 @@
+{"name":"Local: A_Koshary","url":"c:\\Competitive-Programming\\Week-11\\Day-6\\A_Koshary.cpp","tests":[{"id":1777650056372,"input":"6\n1 1\n1 2\n4 6\n5 9\n7 2\n10 10\n","output":"NO\nYES\nYES\nNO\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-11\\Day-6\\A_Koshary.cpp","group":"local","local":true}
