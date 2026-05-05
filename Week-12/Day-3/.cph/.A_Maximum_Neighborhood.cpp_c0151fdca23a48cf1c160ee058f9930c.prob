@@ -1,0 +1,1 @@
+{"name":"Local: A_Maximum_Neighborhood","url":"c:\\Competitive-Programming\\Week-12\\Day-3\\A_Maximum_Neighborhood.cpp","tests":[{"id":1777970154141,"input":"5\n1\n2\n3\n4\n5\n","output":"1\n9\n29\n56\n95\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-12\\Day-3\\A_Maximum_Neighborhood.cpp","group":"local","local":true}
