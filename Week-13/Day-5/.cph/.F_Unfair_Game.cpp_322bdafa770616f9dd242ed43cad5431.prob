@@ -1,0 +1,1 @@
+{"name":"Local: F_Unfair_Game","url":"c:\\Competitive-Programming\\Week-13\\Day-5\\F_Unfair_Game.cpp","tests":[{"id":1778732315841,"input":"5\n1 1 1 0\n1 0 1 2\n2 2 2 0\n3 3 2 0\n0 9 9 9\n","output":"1\n1\n3\n3\n12\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-13\\Day-5\\F_Unfair_Game.cpp","group":"local","local":true}
