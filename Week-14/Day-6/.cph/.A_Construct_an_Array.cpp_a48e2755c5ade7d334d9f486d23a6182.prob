@@ -1,0 +1,1 @@
+{"name":"Local: A_Construct_an_Array","url":"c:\\Competitive-Programming\\Week-14\\Day-6\\A_Construct_an_Array.cpp","tests":[{"id":1779470865179,"input":"3\n1\n3\n6\n","output":"1 \n6 2 3\n8 1 11 2 3 4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Competitive-Programming\\Week-14\\Day-6\\A_Construct_an_Array.cpp","group":"local","local":true}
