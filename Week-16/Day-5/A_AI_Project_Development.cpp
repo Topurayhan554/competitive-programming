@@ -1,24 +1,22 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 void solve() {
     long long n, x, y, z;
     cin >> n >> x >> y >> z;
-
-    long long time1 = (n + x + y - 1) / (x + y);
-
-    long long time2 = 0;
-    long long lines_during_setup = z * x;
-
-    if (n <= lines_during_setup) {
-        time2 = (n + x - 1) / x;
+    
+    long long no_ai = (n + x + y - 1) / (x + y);
+    
+    long long with_ai;
+    if (z * x >= n) {
+        with_ai = (n + x - 1) / x;
     } else {
-        long long remaining_lines = n - lines_during_setup;
+        long long rem_lines = n - z * x;
         long long new_speed = x + 10 * y;
-        time2 = z + (remaining_lines + new_speed - 1)
+        with_ai = z + (rem_lines + new_speed - 1) / new_speed;
     }
-
-    cout << min(time1, time2) << "\n";
+    
+    cout << min(no_ai, with_ai) << "\n";
 }
 
 int main() {
@@ -26,10 +24,10 @@ int main() {
     cin.tie(NULL);
     
     int t;
-    if (cin >> t) {
-        while (t--) {
-            solve();
-        }
+    cin >> t;
+    while (t--) {
+        solve();
     }
+    
     return 0;
 }
