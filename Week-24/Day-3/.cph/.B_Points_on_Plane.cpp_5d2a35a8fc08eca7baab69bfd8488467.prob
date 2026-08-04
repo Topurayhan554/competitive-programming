@@ -1,0 +1,1 @@
+{"name":"Local: B_Points_on_Plane","url":"c:\\competitive-programming\\Week-24\\Day-3\\B_Points_on_Plane.cpp","tests":[{"id":1785855723419,"input":"4\n1\n3\n5\n975461057789971042\n","output":"0\n1\n2\n987654321\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\competitive-programming\\Week-24\\Day-3\\B_Points_on_Plane.cpp","group":"local","local":true}
