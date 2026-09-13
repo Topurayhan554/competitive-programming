@@ -1,0 +1,1 @@
+{"name":"Local: A_Min_Max_Game","url":"c:\\competitive-programming\\Week-30\\Day-1\\A_Min_Max_Game.cpp","tests":[{"id":1789281293870,"input":"3\n5\n1 0 1 0 1\n3\n0 0 1\n4\n1 1 0 0\n","output":"Bessie\nElsie\nBessie\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\competitive-programming\\Week-30\\Day-1\\A_Min_Max_Game.cpp","group":"local","local":true}
