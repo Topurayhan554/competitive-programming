@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
+// using
 
 ll sum_of_squares(ll x) {
     ll sum = 0;
