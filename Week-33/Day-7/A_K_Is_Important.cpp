@@ -2,32 +2,40 @@
 using namespace std;
 
 void solve() {
-    int n;
-    long long k;
-    cin >> n >> k;
-    
+    int n, k;
+    if (!(cin >> n >> k)) return;
+
     vector<long long> a(n);
-    vector<long long> pref(n + 1, 0);
-    
+    long long total_sum = 0;
     for (int i = 0; i < n; ++i) {
         cin >> a[i];
-        pref[i + 1] = pref[i] + a[i];
+        total_sum += a[i];
     }
-    
-    long long len = n - k + 1;
-    
-    long long sum_prefix = pref[len];
-    
-    long long sum_suffix = pref[n] - pref[n - len];
-    
-    long long ans = max(sum_prefix, sum_suffix);
-    cout << ans << "\n";
+
+    int len = k - 1;
+    if (len == 0) {
+        cout << total_sum << "\n";
+        return;
+    }
+
+    long long current_window_sum = 0;
+    for (int i = 0; i < len; ++i) {
+        current_window_sum += a[i];
+    }
+
+    long long min_window_sum = current_window_sum;
+    for (int i = len; i < n; ++i) {
+        current_window_sum += a[i] - a[i - len];
+        min_window_sum = min(min_window_sum, current_window_sum);
+    }
+
+    cout << total_sum - min_window_sum << "\n";
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    
+
     int t;
     if (cin >> t) {
         while (t--) {
