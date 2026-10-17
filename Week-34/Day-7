@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+void solve() {
+    long long n, k;
+    cin >> n >> k;
+    
+    // Special case: if k == 1, we can only subtract 1 each time.
+    if (k == 1) {
+        cout << n << "\n";
+        return;
+    }
+    
+    // Otherwise, sum of digits in base k
+    long long ans = 0;
+    while (n > 0) {
+        ans += n % k;
+        n /= k;
+    }
+    cout << ans << "\n";
+}
+
+int main() {
+    // Optimize standard I/O operations for speed
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
+    return 0;
+}
