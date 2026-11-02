@@ -1,0 +1,1 @@
+{"name":"Local: B_Stakes_and_Shapes","url":"c:\\competitive-programming\\Week-36\\Day-2\\B_Stakes_and_Shapes.cpp","tests":[{"id":1793594613828,"input":"2\n0 0 3\n1 1 2\n","output":"RPS\nSPSS\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\competitive-programming\\Week-36\\Day-2\\B_Stakes_and_Shapes.cpp","group":"local","local":true}
